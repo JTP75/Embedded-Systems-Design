@@ -19,3 +19,5 @@ Lab 2 focused on utilizing the sensors and actuators of the Raspberry Pi Sense H
 * A repeating timer written in C (timer.c)
 ## Lab 3 - GPIO and CPU Cache
 For the third lab, I wrote two C++ programs to blink the r/w integrated LED. The first (blink_VFM.cpp) modifies the trigger and blinks the LED using the linux virtual file system. The other one (blink_devmem.cpp) uses the virual memory (/dev/mem) and memory mapping functions to accomplish the same task. In addition, we wrote a code to perform matrix multiplication while optimizing CPU cache usage. We use 'perf' to measure the cache miss rate at runtime.
+## Lab 4 - Real-Time Scheduling and Multithreading
+The tasks for this lab were to simulate ealiest deadline first (EDF) and rate-monotonic scheduling (RMS) and demonstrate multithreading in C++. The simulations (EDF.cpp & RMS.cpp) each simulate two periodic tasks with differing period and execution times. The multithreading program (multithreading.cpp) uses pthread.h and mutex locks to concurrently run two complex tasks on one CPU core.
