@@ -1,0 +1,6 @@
+#!/bin/sh
+
+g++ RMS.cpp -o RMS_sim
+./RMS_sim
+
+

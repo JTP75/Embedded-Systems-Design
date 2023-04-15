@@ -1,0 +1,6 @@
+#!/bin/sh
+
+g++ multithreading.cpp -pthread -o mthread
+sudo taskset -c 0 ./mthread > priority.txt
+
+

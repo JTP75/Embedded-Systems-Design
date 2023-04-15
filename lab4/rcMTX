@@ -1,0 +1,5 @@
+#!/bin/sh
+
+g++ mutex_threading.cpp -o mutexth -pthread
+sudo taskset -c 0 ./mutexth > tx.txt
+

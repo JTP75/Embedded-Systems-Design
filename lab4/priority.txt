@@ -1,0 +1,32 @@
+task 0 begin
+f0 acquired lock.
+	f0 in lock: 100000000/1000000000, priority is 3
+	f0 in lock: 200000000/1000000000, priority is 3
+=================================
+Beginning threading...	Main priority is 99
+
+task 1 begin
+	f0 in lock: 300000000/1000000000, priority is 11
+	f0 in lock: 400000000/1000000000, priority is 11
+	f0 in lock: 500000000/1000000000, priority is 11
+	f0 in lock: 600000000/1000000000, priority is 11
+	f0 in lock: 700000000/1000000000, priority is 11
+	f0 in lock: 800000000/1000000000, priority is 11
+	f0 in lock: 900000000/1000000000, priority is 11
+	f0 in lock: 1000000000/1000000000, priority is 11
+f1 acquired lock.
+	f1 in lock: 100000000/1000000000, priority is 11
+	f1 in lock: 200000000/1000000000, priority is 11
+	f1 in lock: 300000000/1000000000, priority is 11
+	f1 in lock: 400000000/1000000000, priority is 11
+	f1 in lock: 500000000/1000000000, priority is 11
+	f1 in lock: 600000000/1000000000, priority is 11
+	f1 in lock: 700000000/1000000000, priority is 11
+	f1 in lock: 800000000/1000000000, priority is 11
+	f1 in lock: 900000000/1000000000, priority is 11
+	f1 in lock: 1000000000/1000000000, priority is 11
+f1 released lock.
+f0 released lock.
+
+Threading complete.	Main priority is 99
+=================================

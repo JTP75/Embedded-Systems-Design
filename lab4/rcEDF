@@ -1,0 +1,6 @@
+#!/bin/sh
+
+g++ EDF.cpp -o EDF_sim
+./EDF_sim
+
+
